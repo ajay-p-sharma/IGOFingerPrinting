@@ -1,4 +1,4 @@
-# IGOFingerPrinting: Tumor/Normal pair analysis using IGOFingerPrinting commandline tool
+# Tumor/Normal pair analysis using IGOFingerPrinting commandline tool
 
 This software uses BAM files (without duplicates marked) as input. The libraries for samples are prepared using a SNP panel to sequence the target regions around 39 SNPs used for the analysis.  The software scripts and resources are located under /ifs/res/GCL/hiseq/Stats/IGOFingerPrinting/ . You can copy this directory to any directory of your choice and replace /ifs/res/GCL/hiseq/Stats/ with path to new directory in the examples below. To run the analysis you will need the following
 
