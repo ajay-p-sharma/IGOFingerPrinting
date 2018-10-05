@@ -1,0 +1,172 @@
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  17:11:56,664 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  17:12:03,283 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  17:12:06,202 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file."
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  11:30:07,699 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  11:30:13,937 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  11:30:16,380 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file."
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file."
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file."
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file."
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  12:02:12,989 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  12:02:25,048 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  12:02:25,147 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file."
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  12:24:03,621 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  12:24:46,406 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  12:24:46,496 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file."
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  13:28:43,627 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  13:29:52,056 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  13:29:52,146 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file."
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  15:19:50,011 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  15:19:54,098 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  15:19:54,196 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file"
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  11:34:28,592 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  11:34:33,104 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  11:34:33,197 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file"
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  11:38:03,040 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  11:38:07,029 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  11:38:07,120 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file"
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  12:18:55,348 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  12:18:59,362 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  12:18:59,450 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file"
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  12:43:15,221 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  12:43:19,264 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  12:43:19,359 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file"
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  13:05:54,290 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  13:05:58,178 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  13:05:58,261 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file"
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  15:29:05,144 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  15:29:08,765 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  15:29:08,852 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file"
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  15:30:04,289 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  15:30:08,177 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  15:30:08,268 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file"
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  15:32:45,581 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  15:32:49,551 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  15:32:49,639 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  15:39:04,853 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  15:39:08,877 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  15:39:08,969 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file"
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  15:50:57,888 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  15:51:01,686 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  15:51:01,772 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file"
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  16:13:21,060 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  16:13:25,106 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  16:13:25,194 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file"
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
+There were 3 WARN messages, the first 3 are repeated below.
+WARN  09:27:15,816 InbreedingCoeff - Annotation will not be calculated. InbreedingCoeff requires at least 10 unrelated samples. 
+WARN  09:27:19,777 HaplotypeScore - Annotation will not be calculated, must be called from UnifiedGenotyper, not org.broadinstitute.gatk.tools.walkers.haplotypecaller.HaplotypeCaller 
+WARN  09:27:19,864 AnnotationUtils - Annotation will not be calculated, genotype is not called 
+[1] "Reading data into R"
+[1] "Creating correlation matrix and p-values."
+[1] "Writing correlation and p-values to output file"
+[1] "Creating heatmap..."
+[1] "Creating phylogenetic tree"
