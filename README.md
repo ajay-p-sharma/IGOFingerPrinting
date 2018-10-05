@@ -1,17 +1,17 @@
 # Tumor/Normal pair analysis using IGOFingerPrinting commandline tool
 
-This software uses BAM files (without duplicates marked) as input. The libraries for samples are prepared using a SNP panel to sequence the target regions around 39 SNPs used for the analysis.  The software scripts and resources are located under /ifs/res/GCL/hiseq/Stats/IGOFingerPrinting/ . You can copy this directory to any directory of your choice and replace /ifs/res/GCL/hiseq/Stats/ with path to new directory in the examples below. To run the analysis you will need the following
+This software uses BAM files (without duplicates marked) as input. The libraries for samples are prepared using a SNP panel to sequence the target regions around 39 SNPs used for the analysis.  The software scripts and resources are located under Stats Directory on server, under subdirectory named IGOFingerPrinting/ . You can copy this directory to any directory of your choice and run commands with path to new directory in the examples below. To run the analysis you will need the following
 
 1.	Bed File containing coordinates for target SNPS. A bed file is already created under  target_snps directory inside the software directory. This file needs to be created only once every time list of target SNPs change.
 2.	VCF File containing detailed information about the SNPS. This file will be used by GATK software to insert SNP ID's to variant call files generated after the analysis. This file needs to be updated only once every time target SNPs change.
-3.	Patient IDs File Under vialelab/LIMS/FingerPrinting/  create a directory named as PROJECT_ID that need analysis. If it is single project then it should be named like 08494_B. If you need multiple projects to be analyzed together, then name the directory with PROJECT_ID's separated by "_". 
+3.	Patient IDs File Under {ourSharedDrive}/LIMS/FingerPrinting/  create a directory named as PROJECT_ID that need analysis. If it is single project then it should be named like 08494_B. If you need multiple projects to be analyzed together, then name the directory with PROJECT_ID's separated by "_". 
 example: 06000_EA_08822_E_08822_F. 
 Inside the directory, create a tab delimited text file with the same name as parent directory and add IGO ID, CMO ID, PATIENT ID separated by "tab" for each sample. If needed, you can refer to some of the files I have already created. Finally, save this text file as "Unix LF" format. 
 Note: It is important that the directory name and the file name are same except the file extension.
 
 # Analysis
 
-To run the analysis run the following command from /ifs/res/GCL/hiseq/Stats/IGOFingerPrinting/
+To run the analysis run the following command from {path/to}/IGOFingerPrinting/
 
 # Example:
 python RunFingerPrintingAnalysis.py -run_project PITT_0251_AHW5KYBBXX--06000_EA,PITT_0251_AHW5KYBBXX--08822_E,PITT_0251_AHW5KYBBXX--08822_F -replace_ids 06000_EA_08822_E_08822_F
