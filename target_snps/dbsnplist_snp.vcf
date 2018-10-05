@@ -1,0 +1,96 @@
+##fileformat=VCFv4.0							
+##fileDate=20180418							
+##source=dbSNP							
+##dbSNP_BUILD_ID=151							
+##reference=GRCh37							
+##phasing=partial							
+##variationPropertyDocumentationUrl=ftp							
+##INFO=<ID=RS,Number=1,Type=Integer,Description=dbSNP ID (i.e. rs number)>							
+##INFO=<ID=RSPOS,Number=1,Type=Integer,Description=Chr position reported in dbSNP>							
+##INFO=<ID=RV,Number=0,Type=Flag,Description=RS orientation is reversed>							
+##INFO=<ID=VP,Number=1,Type=String,Description=Variation Property.  Documentation is at ftp							
+##INFO=<ID=GENEINFO,Number=1,Type=String,Description=Pairs each of gene symbol							
+##INFO=<ID=dbSNPBuildID,Number=1,Type=Integer,Description=First dbSNP Build for RS>							
+##INFO=<ID=SAO,Number=1,Type=Integer,Description=Variant Allele Origin							
+##INFO=<ID=SSR,Number=1,Type=Integer,Description=Variant Suspect Reason Codes (may be more than one value added together) 0 - unspecified, 1 - Paralog, 2 - byEST, 4 - oldAlign, 8 - Para_EST, 16 - 1kg_failed, 1024 - other>							
+##INFO=<ID=WGT,Number=1,Type=Integer,Description=Weight, 00 - unmapped, 1 - weight 1, 2 - weight 2, 3 - weight 3 or more>							
+##INFO=<ID=VC,Number=1,Type=String,Description=Variation Class>							
+##INFO=<ID=PM,Number=0,Type=Flag,Description=Variant is Precious(Clinical,Pubmed Cited)>							
+##INFO=<ID=TPA,Number=0,Type=Flag,Description=Provisional Third Party Annotation(TPA) (currently rs from PHARMGKB who will give phenotype data)>							
+##INFO=<ID=PMC,Number=0,Type=Flag,Description=Links exist to PubMed Central article>							
+##INFO=<ID=S3D,Number=0,Type=Flag,Description=Has 3D structure - SNP3D table>							
+##INFO=<ID=SLO,Number=0,Type=Flag,Description=Has SubmitterLinkOut - From SNP->SubSNP->Batch.link_out>							
+##INFO=<ID=NSF,Number=0,Type=Flag,Description=Has non-synonymous frameshift A coding region variation where one allele in the set changes all downstream amino acids. FxnClass = 44>							
+##INFO=<ID=NSM,Number=0,Type=Flag,Description=Has non-synonymous missense A coding region variation where one allele in the set changes protein peptide. FxnClass = 42>							
+##INFO=<ID=NSN,Number=0,Type=Flag,Description=Has non-synonymous nonsense A coding region variation where one allele in the set changes to STOP codon (TER). FxnClass = 41>							
+##INFO=<ID=REF,Number=0,Type=Flag,Description=Has reference A coding region variation where one allele in the set is identical to the reference sequence. FxnCode = 8>							
+##INFO=<ID=SYN,Number=0,Type=Flag,Description=Has synonymous A coding region variation where one allele in the set does not change the encoded amino acid. FxnCode = 3>							
+##INFO=<ID=U3,Number=0,Type=Flag,Description=In 3' UTR Location is in an untranslated region (UTR). FxnCode = 53>							
+##INFO=<ID=U5,Number=0,Type=Flag,Description=In 5' UTR Location is in an untranslated region (UTR). FxnCode = 55>							
+##INFO=<ID=ASS,Number=0,Type=Flag,Description=In acceptor splice site FxnCode = 73>							
+##INFO=<ID=DSS,Number=0,Type=Flag,Description=In donor splice-site FxnCode = 75>							
+##INFO=<ID=INT,Number=0,Type=Flag,Description=In Intron FxnCode = 6>							
+##INFO=<ID=R3,Number=0,Type=Flag,Description=In 3' gene region FxnCode = 13>							
+##INFO=<ID=R5,Number=0,Type=Flag,Description=In 5' gene region FxnCode = 15>							
+##INFO=<ID=OTH,Number=0,Type=Flag,Description=Has other variant with exactly the same set of mapped positions on NCBI refernce assembly.>							
+##INFO=<ID=CFL,Number=0,Type=Flag,Description=Has Assembly conflict. This is for weight 1 and 2 variant that maps to different chromosomes on different assemblies.>							
+##INFO=<ID=ASP,Number=0,Type=Flag,Description=Is Assembly specific. This is set if the variant only maps to one assembly>							
+##INFO=<ID=MUT,Number=0,Type=Flag,Description=Is mutation (journal citation, explicit fact)							
+##INFO=<ID=VLD,Number=0,Type=Flag,Description=Is Validated.  This bit is set if the variant has 2+ minor allele count based on frequency or genotype data.>							
+##INFO=<ID=G5A,Number=0,Type=Flag,Description=>5% minor allele frequency in each and all populations>							
+##INFO=<ID=G5,Number=0,Type=Flag,Description=>5% minor allele frequency in 1+ populations>							
+##INFO=<ID=HD,Number=0,Type=Flag,Description=Marker is on high density genotyping kit (50K density or greater).  The variant may have phenotype associations present in dbGaP.>							
+##INFO=<ID=GNO,Number=0,Type=Flag,Description=Genotypes available. The variant has individual genotype (in SubInd table).>							
+##INFO=<ID=KGPhase1,Number=0,Type=Flag,Description=1000 Genome phase 1 (incl. June Interim phase 1)>							
+##INFO=<ID=KGPhase3,Number=0,Type=Flag,Description=1000 Genome phase 3>							
+##INFO=<ID=CDA,Number=0,Type=Flag,Description=Variation is interrogated in a clinical diagnostic assay>							
+##INFO=<ID=LSD,Number=0,Type=Flag,Description=Submitted from a locus-specific database>							
+##INFO=<ID=MTP,Number=0,Type=Flag,Description=Microattribution/third-party annotation(TPA							
+##INFO=<ID=OM,Number=0,Type=Flag,Description=Has OMIM/OMIA>							
+##INFO=<ID=NOC,Number=0,Type=Flag,Description=Contig allele not present in variant allele list. The reference sequence allele at the mapped position is not present in the variant allele list, adjusted for orientation.>							
+##INFO=<ID=WTD,Number=0,Type=Flag,Description=Is Withdrawn by submitter If one member ss is withdrawn by submitter, then this bit is set.  If all member ss' are withdrawn, then the rs is deleted to SNPHistory>							
+##INFO=<ID=NOV,Number=0,Type=Flag,Description=Rs cluster has non-overlapping allele sets. True when rs set has more than 2 alleles from different submissions and these sets share no alleles in common.>							
+##FILTER=<ID=NC,Description=Inconsistent Genotype Submission For At Least One Sample>							
+##INFO=<ID=CAF,Number=.,Type=String,Description=An ordered, comma delimited list of allele frequencies based on 1000Genomes, starting with the reference allele followed by alternate alleles as ordered in the ALT column. Where a 1000Genomes alternate allele is not in the dbSNPs alternate allele set, the allele is added to the ALT column. The minor allele is the second largest value in the list, and was previuosly reported in VCF as the GMAF. This is the GMAF reported on the RefSNP and EntrezSNP pages and VariationReporter>							
+##INFO=<ID=COMMON,Number=1,Type=Integer,Description=RS is a common SNP.  A common SNP is one that has at least one 1000Genomes population with a minor allele of frequency >= 1% and for which 2 or more founders contribute to that minor allele frequency.>							
+##INFO=<ID=TOPMED,Number=.,Type=String,Description=An ordered, comma delimited list of allele frequencies based on TOPMed, starting with the reference allele followed by alternate alleles as ordered in the ALT column. The TOPMed minor allele is the second largest value in the list.>							
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chr1	35013586	rs12136079	A	G	.	.	AC=27;AF=0.466;AN=58;BaseQRankSum=-1.157;ClippingRankSum=0.000;DP=4364;ExcessHet=0.0953;FS=1.028;InbreedingCoeff=0.3589;MLEAC=27;MLEAF=0.466;MQ=60.00;MQRankSum=0.000;QD=29.51;ReadPosRankSum=-0.763;SOR=0.598
+chr1	158507184	rs2051068	A	G	.	.	AC=30;AF=0.517;AN=58;BaseQRankSum=0.484;ClippingRankSum=0.000;DP=3800;ExcessHet=4.8205;FS=0.000;InbreedingCoeff=-0.1091;MLEAC=30;MLEAF=0.517;MQ=59.99;MQRankSum=-0.978;QD=26.21;ReadPosRankSum=-0.539;SOR=0.239
+chr2	60170875	rs2419407	C	T	.	.	AC=27;AF=0.466;AN=58;BaseQRankSum=-0.805;ClippingRankSum=0.000;DP=2300;ExcessHet=1.4106;FS=0.000;InbreedingCoeff=0.0994;MLEAC=27;MLEAF=0.466;MQ=59.98;MQRankSum=0.000;QD=17.17;ReadPosRankSum=-0.322;SOR=0.697
+chr2	79422965	rs1434199	C	G	.	.	AC=31;AF=0.534;AN=58;BaseQRankSum=0.116;ClippingRankSum=0.000;DP=3858;ExcessHet=6.8149;FS=0.000;InbreedingCoeff=-0.1780;MLEAC=31;MLEAF=0.534;MQ=59.96;MQRankSum=0.119;QD=17.21;ReadPosRankSum=-0.176;SOR=0.678
+chr3	88892638	rs6800661	C	A	.	.	AC=31;AF=0.534;AN=58;BaseQRankSum=-1.142;ClippingRankSum=0.000;DP=1298;ExcessHet=3.4087;FS=1.094;InbreedingCoeff=-0.0394;MLEAC=31;MLEAF=0.534;MQ=59.99;MQRankSum=1.019;QD=16.38;ReadPosRankSum=0.521;SOR=0.629
+chr3	150742677	rs744876	A	G	.	.	AC=30;AF=0.517;AN=58;BaseQRankSum=4.647;ClippingRankSum=0.000;DP=763;ExcessHet=15.0367;FS=0.000;InbreedingCoeff=-0.3810;MLEAC=30;MLEAF=0.517;MQ=60.00;MQRankSum=0.000;QD=22.49;ReadPosRankSum=1.426;SOR=0.403
+chr4	15499251	rs2160043	T	C	.	.	AC=31;AF=0.534;AN=58;BaseQRankSum=1.517;ClippingRankSum=0.000;DP=697;ExcessHet=3.4087;FS=0.000;InbreedingCoeff=-0.0109;MLEAC=31;MLEAF=0.534;MQ=59.89;MQRankSum=0.000;QD=14.37;ReadPosRankSum=0.577;SOR=0.700
+chr4	157519096	rs1521696	A	T	.	.	AC=19;AF=0.328;AN=58;BaseQRankSum=1.515;ClippingRankSum=0.000;DP=4277;ExcessHet=2.9610;FS=0.578;InbreedingCoeff=-0.0151;MLEAC=19;MLEAF=0.328;MQ=59.99;MQRankSum=0.000;QD=15.27;ReadPosRankSum=1.587;SOR=0.776
+chr5	79172136	rs265005	A	G	.	.	AC=18;AF=0.310;AN=58;BaseQRankSum=0.453;ClippingRankSum=0.000;DP=1044;ExcessHet=5.2738;FS=0.000;InbreedingCoeff=-0.1278;MLEAC=18;MLEAF=0.310;MQ=59.94;MQRankSum=0.000;QD=9.82;ReadPosRankSum=-0.102;SOR=0.674
+chr5	151756016	rs4958301	G	T	.	.	AC=35;AF=0.603;AN=58;BaseQRankSum=-0.014;ClippingRankSum=0.000;DP=1347;ExcessHet=0.5936;FS=0.000;InbreedingCoeff=0.2075;MLEAC=35;MLEAF=0.603;MQ=59.96;MQRankSum=-0.766;QD=32.35;ReadPosRankSum=-0.686;SOR=0.208
+chr6	31053257	rs2535310	A	C	.	.	AC=43;AF=0.741;AN=58;BaseQRankSum=-0.824;ClippingRankSum=0.000;DP=988;ExcessHet=13.6947;FS=0.000;InbreedingCoeff=-0.3489;MLEAC=43;MLEAF=0.741;MQ=59.94;MQRankSum=-0.996;QD=27.69;ReadPosRankSum=-0.390;SOR=0.573
+chr6	32877173	rs154989	A	G	.	.	AC=24;AF=0.414;AN=58;BaseQRankSum=-0.181;ClippingRankSum=0.000;DP=1314;ExcessHet=10.3860;FS=0.526;InbreedingCoeff=-0.2794;MLEAC=24;MLEAF=0.414;MQ=59.91;MQRankSum=0.000;QD=11.72;ReadPosRankSum=-0.844;SOR=0.665
+chr7	83542173	rs701286	G	A	.	.	AC=20;AF=0.345;AN=58;BaseQRankSum=-2.460;ClippingRankSum=0.000;DP=714;ExcessHet=25.4631;FS=3.382;InbreedingCoeff=-0.5263;MLEAC=20;MLEAF=0.345;MQ=59.99;MQRankSum=-1.492;QD=16.02;ReadPosRankSum=-0.585;SOR=0.189
+chr7	103214940	rs362813	T	C	.	.	AC=27;AF=0.466;AN=58;BaseQRankSum=0.291;ClippingRankSum=0.000;DP=970;ExcessHet=3.4087;FS=3.189;InbreedingCoeff=-0.0394;MLEAC=27;MLEAF=0.466;MQ=59.99;MQRankSum=-1.037;QD=26.53;ReadPosRankSum=0.459;SOR=0.243
+chr8	18464930	rs10102929	C	T	.	.	AC=29;AF=0.500;AN=58;BaseQRankSum=1.331;ClippingRankSum=0.000;DP=1573;ExcessHet=1.3674;FS=0.542;InbreedingCoeff=0.1034;MLEAC=29;MLEAF=0.500;MQ=59.87;MQRankSum=-2.497;QD=16.77;ReadPosRankSum=0.101;SOR=0.760
+chr9	31112857	rs1335143	A	G	.	.	AC=39;AF=0.672;AN=58;BaseQRankSum=-1.567;ClippingRankSum=0.000;DP=245;ExcessHet=6.5892;FS=0.000;InbreedingCoeff=-0.1799;MLEAC=39;MLEAF=0.672;MQ=59.87;MQRankSum=0.000;QD=28.56;ReadPosRankSum=0.000;SOR=1.287
+chr9	138829709	rs11103233	C	T	.	.	AC=22;AF=0.379;AN=58;BaseQRankSum=-2.057;ClippingRankSum=0.000;DP=746;ExcessHet=12.0522;FS=0.000;InbreedingCoeff=-0.3181;MLEAC=22;MLEAF=0.379;MQ=59.95;MQRankSum=0.000;QD=19.03;ReadPosRankSum=-1.087;SOR=0.169
+chr10	18471961	rs1624525	T	G	.	.	AC=35;AF=0.603;AN=58;BaseQRankSum=1.387;ClippingRankSum=0.000;DP=2402;ExcessHet=8.3157;FS=0.000;InbreedingCoeff=-0.2249;MLEAC=35;MLEAF=0.603;MQ=59.98;MQRankSum=-1.204;QD=24.80;ReadPosRankSum=-0.094;SOR=1.063
+chr10	60277549	rs1365740	A	C	.	.	AC=26;AF=0.448;AN=58;BaseQRankSum=-1.183;ClippingRankSum=0.000;DP=1240;ExcessHet=0.8594;FS=0.000;InbreedingCoeff=0.1635;MLEAC=26;MLEAF=0.448;MQ=59.96;MQRankSum=0.867;QD=15.55;ReadPosRankSum=-0.150;SOR=0.667
+chr11	74401763	rs10899035	C	T	.	.	AC=35;AF=0.603;AN=58;BaseQRankSum=-3.253;ClippingRankSum=0.000;DP=950;ExcessHet=0.5936;FS=2.718;InbreedingCoeff=0.2073;MLEAC=35;MLEAF=0.603;MQ=58.40;MQRankSum=0.000;QD=32.89;ReadPosRankSum=-0.838;SOR=0.135
+chr11	110697305	rs120434	C	G	.	.	AC=27;AF=0.466;AN=58;BaseQRankSum=-0.091;ClippingRankSum=0.000;DP=1943;ExcessHet=3.4087;FS=0.000;InbreedingCoeff=-0.0394;MLEAC=27;MLEAF=0.466;MQ=59.94;MQRankSum=0.000;QD=15.69;ReadPosRankSum=-0.038;SOR=0.673
+chr12	17903344	rs7297243	G	A	.	.	AC=31;AF=0.534;AN=58;BaseQRankSum=-0.630;ClippingRankSum=0.000;DP=1699;ExcessHet=3.4087;FS=0.000;InbreedingCoeff=-0.0394;MLEAC=31;MLEAF=0.534;MQ=59.96;MQRankSum=0.000;QD=15.07;ReadPosRankSum=1.027;SOR=0.708
+chr12	22968378	rs2433651	G	A	.	.	AC=32;AF=0.552;AN=58;BaseQRankSum=0.844;ClippingRankSum=0.000;DP=1235;ExcessHet=0.0390;FS=0.000;InbreedingCoeff=0.4423;MLEAC=32;MLEAF=0.552;MQ=59.97;MQRankSum=0.000;QD=21.38;ReadPosRankSum=0.226;SOR=0.701
+chr13	76833684	rs9573824	A	G	.	.	AC=20;AF=0.345;AN=58;BaseQRankSum=7.140;ClippingRankSum=0.000;DP=514;ExcessHet=25.4631;FS=0.000;InbreedingCoeff=-0.5264;MLEAC=20;MLEAF=0.345;MQ=59.94;MQRankSum=0.000;QD=19.14;ReadPosRankSum=1.762;SOR=0.868
+chr13	103337357	rs630706	T	C	.	.	AC=25;AF=0.431;AN=58;BaseQRankSum=-2.257;ClippingRankSum=0.000;DP=1396;ExcessHet=7.3392;FS=0.528;InbreedingCoeff=-0.1952;MLEAC=25;MLEAF=0.431;MQ=59.91;MQRankSum=0.000;QD=13.24;ReadPosRankSum=-0.030;SOR=0.619
+chr14	50551034	rs10140137	A	G	.	.	AC=40;AF=0.690;AN=58;BaseQRankSum=-0.668;ClippingRankSum=0.000;DP=753;ExcessHet=2.1768;FS=0.000;InbreedingCoeff=0.0518;MLEAC=41;MLEAF=0.707;MQ=59.92;MQRankSum=-0.670;QD=18.89;ReadPosRankSum=0.209;SOR=0.693
+chr14	98830005	rs1026504	A	C	.	.	AC=39;AF=0.672;AN=58;BaseQRankSum=0.576;ClippingRankSum=0.000;DP=2030;ExcessHet=6.5892;FS=0.565;InbreedingCoeff=-0.1741;MLEAC=39;MLEAF=0.672;MQ=59.94;MQRankSum=0.000;QD=18.70;ReadPosRankSum=-0.572;SOR=0.736
+chr15	97476082	rs12442455	T	C	.	.	AC=36;AF=0.621;AN=58;BaseQRankSum=-0.627;ClippingRankSum=0.000;DP=1382;ExcessHet=12.0522;FS=0.000;InbreedingCoeff=-0.3177;MLEAC=36;MLEAF=0.621;MQ=59.92;MQRankSum=0.000;QD=15.62;ReadPosRankSum=-0.289;SOR=0.674
+chr16	55329601	rs31042	A	G	.	.	AC=24;AF=0.414;AN=58;BaseQRankSum=1.116;ClippingRankSum=0.000;DP=2089;ExcessHet=2.6256;FS=0.687;InbreedingCoeff=-0.0213;MLEAC=25;MLEAF=0.431;MQ=59.97;MQRankSum=-1.272;QD=15.48;ReadPosRankSum=-0.494;SOR=0.602
+chr17	114669	rs4617924	C	A	.	.	AC=38;AF=0.655;AN=58;BaseQRankSum=-1.077;ClippingRankSum=0.000;DP=1183;ExcessHet=1.5651;FS=0.000;InbreedingCoeff=0.0859;MLEAC=38;MLEAF=0.655;MQ=59.94;MQRankSum=0.000;QD=18.67;ReadPosRankSum=-0.794;SOR=0.653
+chr18	43015532	rs2287434	C	T	.	.	AC=27;AF=0.466;AN=58;BaseQRankSum=1.829;ClippingRankSum=0.000;DP=1819;ExcessHet=11.9652;FS=0.000;InbreedingCoeff=-0.3041;MLEAC=27;MLEAF=0.466;MQ=59.92;MQRankSum=0.000;QD=12.85;ReadPosRankSum=-0.311;SOR=0.691
+chr18	73602007	rs8096468	T	C	.	.	AC=36;AF=0.621;AN=58;BaseQRankSum=-0.309;ClippingRankSum=0.000;DP=1594;ExcessHet=0.3387;FS=0.000;InbreedingCoeff=0.2677;MLEAC=36;MLEAF=0.621;MQ=59.97;MQRankSum=0.000;QD=19.69;ReadPosRankSum=-0.301;SOR=0.670
+chr19	39538592	rs7250431	G	T	.	.	AC=35;AF=0.603;AN=58;BaseQRankSum=-0.445;ClippingRankSum=0.000;DP=1911;ExcessHet=4.2370;FS=0.000;InbreedingCoeff=-0.0807;MLEAC=35;MLEAF=0.603;MQ=59.93;MQRankSum=0.000;QD=16.59;ReadPosRankSum=0.180;SOR=0.717
+chr19	51805318	rs273628	G	A	.	.	AC=33;AF=0.569;AN=58;BaseQRankSum=-1.772;ClippingRankSum=0.000;DP=3742;ExcessHet=0.4951;FS=0.000;InbreedingCoeff=0.2313;MLEAC=33;MLEAF=0.569;MQ=60.00;MQRankSum=0.000;QD=29.24;ReadPosRankSum=0.686;SOR=0.597
+chr20	59928005	rs11698886	A	G	.	.	AC=22;AF=0.379;AN=58;BaseQRankSum=-2.057;ClippingRankSum=0.000;DP=746;ExcessHet=12.0522;FS=0.000;InbreedingCoeff=-0.3181;MLEAC=22;MLEAF=0.379;MQ=59.95;MQRankSum=0.000;QD=19.03;ReadPosRankSum=-1.087;SOR=0.169
+chr21	28399182	rs233621	T	C	.	.	AC=28;AF=0.483;AN=58;BaseQRankSum=1.027;ClippingRankSum=0.000;DP=1626;ExcessHet=15.0367;FS=1.733;InbreedingCoeff=-0.3810;MLEAC=28;MLEAF=0.483;MQ=59.89;MQRankSum=-1.041;QD=12.94;ReadPosRankSum=1.777;SOR=0.827
+chr22	21135763	rs165583	C	A	.	.	AC=27;AF=0.466;AN=58;BaseQRankSum=-1.329;ClippingRankSum=0.000;DP=1321;ExcessHet=3.4087;FS=2.094;InbreedingCoeff=-0.0394;MLEAC=27;MLEAF=0.466;MQ=59.97;MQRankSum=-0.599;QD=23.03;ReadPosRankSum=-1.706;SOR=0.275
+chr22	29414001	rs2347790	A	G	.	.	AC=22;AF=0.379;AN=58;BaseQRankSum=-2.057;ClippingRankSum=0.000;DP=746;ExcessHet=12.0522;FS=0.000;InbreedingCoeff=-0.3181;MLEAC=22;MLEAF=0.379;MQ=59.95;MQRankSum=0.000;QD=19.03;ReadPosRankSum=-1.087;SOR=0.169
+chrY	401142	rs6645103	C	T	.	.	AC=22;AF=0.379;AN=58;BaseQRankSum=-2.057;ClippingRankSum=0.000;DP=746;ExcessHet=12.0522;FS=0.000;InbreedingCoeff=-0.3181;MLEAC=22;MLEAF=0.379;MQ=59.95;MQRankSum=0.000;QD=19.03;ReadPosRankSum=-1.087;SOR=0.169
